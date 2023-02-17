@@ -1,4 +1,4 @@
-Movie App, build with React, Next, TypeScript, Apollo Client, Tawild css and React atomic design Pattern
+Movie App, built with React, Next, TypeScript, Apollo Client (Graphql), Tawild css and React atomic design Pattern
 
 ## Getting Started
 
