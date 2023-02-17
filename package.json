@@ -1,0 +1,38 @@
+{
+  "name": "movie-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:check": "eslint \"{src,pages}/**/*.{ts,tsx}\"",
+    "lint:fix": "eslint --fix --ext .ts,.tsx pages/ src/ && yarn check-types",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.7",
+    "@next/font": "13.1.6",
+    "@types/node": "18.13.0",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "eslint": "^8.34.0",
+    "eslint-config-next": "13.1.6",
+    "graphql": "^16.6.0",
+    "lodash.debounce": "^4.0.8",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.7",
+    "autoprefixer": "^10.4.13",
+    "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6"
+  }
+}
